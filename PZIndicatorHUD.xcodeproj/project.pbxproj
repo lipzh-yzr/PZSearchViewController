@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C70C5ACC0ED9D2CFEAB67233 /* libPods-PZIndicatorHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A103E5172809DC69C4E27BA /* libPods-PZIndicatorHUD.a */; };
 		F2C3FAD027BBE7AE00663DA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C3FACF27BBE7AE00663DA0 /* AppDelegate.m */; };
 		F2C3FAD627BBE7AE00663DA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C3FAD527BBE7AE00663DA0 /* ViewController.m */; };
 		F2C3FADB27BBE7B000663DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C3FADA27BBE7B000663DA0 /* Assets.xcassets */; };
 		F2C3FADE27BBE7B000663DA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C3FADC27BBE7B000663DA0 /* LaunchScreen.storyboard */; };
 		F2C3FAE127BBE7B000663DA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C3FAE027BBE7B000663DA0 /* main.m */; };
+		F2C3FAEA27BC839B00663DA0 /* PZToast.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C3FAE927BC839B00663DA0 /* PZToast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57E0FAD32489588429FCC4AD /* Pods-PZIndicatorHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PZIndicatorHUD.release.xcconfig"; path = "Target Support Files/Pods-PZIndicatorHUD/Pods-PZIndicatorHUD.release.xcconfig"; sourceTree = "<group>"; };
+		6A103E5172809DC69C4E27BA /* libPods-PZIndicatorHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PZIndicatorHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1302891E4C7420AF1AD319C /* Pods-PZIndicatorHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PZIndicatorHUD.debug.xcconfig"; path = "Target Support Files/Pods-PZIndicatorHUD/Pods-PZIndicatorHUD.debug.xcconfig"; sourceTree = "<group>"; };
 		F2C3FACB27BBE7AE00663DA0 /* PZIndicatorHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PZIndicatorHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C3FACE27BBE7AE00663DA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2C3FACF27BBE7AE00663DA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -24,6 +29,8 @@
 		F2C3FADD27BBE7B000663DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2C3FADF27BBE7B000663DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2C3FAE027BBE7B000663DA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2C3FAE827BC839B00663DA0 /* PZToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZToast.h; sourceTree = "<group>"; };
+		F2C3FAE927BC839B00663DA0 /* PZToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZToast.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +38,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C70C5ACC0ED9D2CFEAB67233 /* libPods-PZIndicatorHUD.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B7A92509C5BA9889586BB0A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A103E5172809DC69C4E27BA /* libPods-PZIndicatorHUD.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9F1A500202FDB610D84EF59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1302891E4C7420AF1AD319C /* Pods-PZIndicatorHUD.debug.xcconfig */,
+				57E0FAD32489588429FCC4AD /* Pods-PZIndicatorHUD.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F2C3FAC227BBE7AE00663DA0 = {
 			isa = PBXGroup;
 			children = (
 				F2C3FACD27BBE7AE00663DA0 /* PZIndicatorHUD */,
 				F2C3FACC27BBE7AE00663DA0 /* Products */,
+				C9F1A500202FDB610D84EF59 /* Pods */,
+				B7A92509C5BA9889586BB0A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +83,7 @@
 		F2C3FACD27BBE7AE00663DA0 /* PZIndicatorHUD */ = {
 			isa = PBXGroup;
 			children = (
+				F2C3FAE727BC838B00663DA0 /* Toast */,
 				F2C3FACE27BBE7AE00663DA0 /* AppDelegate.h */,
 				F2C3FACF27BBE7AE00663DA0 /* AppDelegate.m */,
 				F2C3FAD427BBE7AE00663DA0 /* ViewController.h */,
@@ -68,6 +96,15 @@
 			path = PZIndicatorHUD;
 			sourceTree = "<group>";
 		};
+		F2C3FAE727BC838B00663DA0 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				F2C3FAE827BC839B00663DA0 /* PZToast.h */,
+				F2C3FAE927BC839B00663DA0 /* PZToast.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -75,6 +112,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2C3FAE427BBE7B000663DA0 /* Build configuration list for PBXNativeTarget "PZIndicatorHUD" */;
 			buildPhases = (
+				C1E04DF697141933B166A23F /* [CP] Check Pods Manifest.lock */,
 				F2C3FAC727BBE7AE00663DA0 /* Sources */,
 				F2C3FAC827BBE7AE00663DA0 /* Frameworks */,
 				F2C3FAC927BBE7AE00663DA0 /* Resources */,
@@ -132,12 +170,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C1E04DF697141933B166A23F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PZIndicatorHUD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F2C3FAC727BBE7AE00663DA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F2C3FAD627BBE7AE00663DA0 /* ViewController.m in Sources */,
+				F2C3FAEA27BC839B00663DA0 /* PZToast.m in Sources */,
 				F2C3FAD027BBE7AE00663DA0 /* AppDelegate.m in Sources */,
 				F2C3FAE127BBE7B000663DA0 /* main.m in Sources */,
 			);
@@ -271,6 +335,7 @@
 		};
 		F2C3FAE527BBE7B000663DA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1302891E4C7420AF1AD319C /* Pods-PZIndicatorHUD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,6 +361,7 @@
 		};
 		F2C3FAE627BBE7B000663DA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57E0FAD32489588429FCC4AD /* Pods-PZIndicatorHUD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
