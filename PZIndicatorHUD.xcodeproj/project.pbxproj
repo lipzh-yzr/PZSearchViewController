@@ -8,18 +8,59 @@
 
 /* Begin PBXBuildFile section */
 		C70C5ACC0ED9D2CFEAB67233 /* libPods-PZIndicatorHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A103E5172809DC69C4E27BA /* libPods-PZIndicatorHUD.a */; };
+		F22A091D27C3B83600A8F005 /* PZSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F22A091C27C3B83600A8F005 /* PZSearchViewController.m */; };
+		F22A092027C3B86700A8F005 /* PZSearchSuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F22A091F27C3B86700A8F005 /* PZSearchSuggestionViewController.m */; };
+		F22A092327C3BA3D00A8F005 /* PZSearchNormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F22A092227C3BA3D00A8F005 /* PZSearchNormalViewController.m */; };
+		F22A092727C4846700A8F005 /* ic_search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F22A092627C4846700A8F005 /* ic_search@3x.png */; };
+		F22A092A27C5056B00A8F005 /* PZSearchNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F22A092927C5056B00A8F005 /* PZSearchNormalCell.m */; };
+		F22A092D27C5063D00A8F005 /* UIColor+ZQSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = F22A092C27C5063C00A8F005 /* UIColor+ZQSearch.m */; };
+		F22A093127C5079D00A8F005 /* PZSearchHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F22A093027C5079D00A8F005 /* PZSearchHeaderView.m */; };
+		F22A093327C508FB00A8F005 /* empty.png in Resources */ = {isa = PBXBuildFile; fileRef = F22A093227C508FB00A8F005 /* empty.png */; };
+		F22A093627C60EAD00A8F005 /* PZSearchFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F22A093527C60EAD00A8F005 /* PZSearchFlowLayout.m */; };
+		F22A093927C611E100A8F005 /* PZSearchSuggestBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F22A093827C611E000A8F005 /* PZSearchSuggestBaseCell.m */; };
+		F22A093C27C613DE00A8F005 /* PZSearchSuggestFuzzyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F22A093B27C613DE00A8F005 /* PZSearchSuggestFuzzyCell.m */; };
+		F22A093F27C6157C00A8F005 /* PZSearchSuggestConcreteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F22A093E27C6157C00A8F005 /* PZSearchSuggestConcreteCell.m */; };
+		F22A094227C62E0500A8F005 /* PZSearchSuggestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F22A094127C62E0500A8F005 /* PZSearchSuggestModel.m */; };
+		F22A094427C62E9000A8F005 /* default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F22A094327C62E9000A8F005 /* default@3x.png */; };
+		F2BDF94427C6357D0076FE4D /* ic_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BDF94327C6357D0076FE4D /* ic_back@2x.png */; };
 		F2C3FAD027BBE7AE00663DA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C3FACF27BBE7AE00663DA0 /* AppDelegate.m */; };
 		F2C3FAD627BBE7AE00663DA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C3FAD527BBE7AE00663DA0 /* ViewController.m */; };
 		F2C3FADB27BBE7B000663DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C3FADA27BBE7B000663DA0 /* Assets.xcassets */; };
 		F2C3FADE27BBE7B000663DA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C3FADC27BBE7B000663DA0 /* LaunchScreen.storyboard */; };
 		F2C3FAE127BBE7B000663DA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C3FAE027BBE7B000663DA0 /* main.m */; };
-		F2C3FAEA27BC839B00663DA0 /* PZToast.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C3FAE927BC839B00663DA0 /* PZToast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		57E0FAD32489588429FCC4AD /* Pods-PZIndicatorHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PZIndicatorHUD.release.xcconfig"; path = "Target Support Files/Pods-PZIndicatorHUD/Pods-PZIndicatorHUD.release.xcconfig"; sourceTree = "<group>"; };
 		6A103E5172809DC69C4E27BA /* libPods-PZIndicatorHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PZIndicatorHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1302891E4C7420AF1AD319C /* Pods-PZIndicatorHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PZIndicatorHUD.debug.xcconfig"; path = "Target Support Files/Pods-PZIndicatorHUD/Pods-PZIndicatorHUD.debug.xcconfig"; sourceTree = "<group>"; };
+		F22A091B27C3B83600A8F005 /* PZSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZSearchViewController.h; sourceTree = "<group>"; };
+		F22A091C27C3B83600A8F005 /* PZSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZSearchViewController.m; sourceTree = "<group>"; };
+		F22A091E27C3B86700A8F005 /* PZSearchSuggestionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZSearchSuggestionViewController.h; sourceTree = "<group>"; };
+		F22A091F27C3B86700A8F005 /* PZSearchSuggestionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZSearchSuggestionViewController.m; sourceTree = "<group>"; };
+		F22A092127C3BA3D00A8F005 /* PZSearchNormalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZSearchNormalViewController.h; sourceTree = "<group>"; };
+		F22A092227C3BA3D00A8F005 /* PZSearchNormalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZSearchNormalViewController.m; sourceTree = "<group>"; };
+		F22A092427C3C08D00A8F005 /* PZSearchConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZSearchConst.h; sourceTree = "<group>"; };
+		F22A092627C4846700A8F005 /* ic_search@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_search@3x.png"; sourceTree = "<group>"; };
+		F22A092827C5056B00A8F005 /* PZSearchNormalCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZSearchNormalCell.h; sourceTree = "<group>"; };
+		F22A092927C5056B00A8F005 /* PZSearchNormalCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZSearchNormalCell.m; sourceTree = "<group>"; };
+		F22A092B27C5063C00A8F005 /* UIColor+ZQSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZQSearch.h"; sourceTree = "<group>"; };
+		F22A092C27C5063C00A8F005 /* UIColor+ZQSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZQSearch.m"; sourceTree = "<group>"; };
+		F22A092F27C5079D00A8F005 /* PZSearchHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZSearchHeaderView.h; sourceTree = "<group>"; };
+		F22A093027C5079D00A8F005 /* PZSearchHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZSearchHeaderView.m; sourceTree = "<group>"; };
+		F22A093227C508FB00A8F005 /* empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empty.png; sourceTree = "<group>"; };
+		F22A093427C60EAD00A8F005 /* PZSearchFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZSearchFlowLayout.h; sourceTree = "<group>"; };
+		F22A093527C60EAD00A8F005 /* PZSearchFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZSearchFlowLayout.m; sourceTree = "<group>"; };
+		F22A093727C611E000A8F005 /* PZSearchSuggestBaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZSearchSuggestBaseCell.h; sourceTree = "<group>"; };
+		F22A093827C611E000A8F005 /* PZSearchSuggestBaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZSearchSuggestBaseCell.m; sourceTree = "<group>"; };
+		F22A093A27C613DE00A8F005 /* PZSearchSuggestFuzzyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZSearchSuggestFuzzyCell.h; sourceTree = "<group>"; };
+		F22A093B27C613DE00A8F005 /* PZSearchSuggestFuzzyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZSearchSuggestFuzzyCell.m; sourceTree = "<group>"; };
+		F22A093D27C6157C00A8F005 /* PZSearchSuggestConcreteCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZSearchSuggestConcreteCell.h; sourceTree = "<group>"; };
+		F22A093E27C6157C00A8F005 /* PZSearchSuggestConcreteCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZSearchSuggestConcreteCell.m; sourceTree = "<group>"; };
+		F22A094027C62E0500A8F005 /* PZSearchSuggestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZSearchSuggestModel.h; sourceTree = "<group>"; };
+		F22A094127C62E0500A8F005 /* PZSearchSuggestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZSearchSuggestModel.m; sourceTree = "<group>"; };
+		F22A094327C62E9000A8F005 /* default@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default@3x.png"; sourceTree = "<group>"; };
+		F2BDF94327C6357D0076FE4D /* ic_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_back@2x.png"; sourceTree = "<group>"; };
 		F2C3FACB27BBE7AE00663DA0 /* PZIndicatorHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PZIndicatorHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C3FACE27BBE7AE00663DA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2C3FACF27BBE7AE00663DA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,8 +70,6 @@
 		F2C3FADD27BBE7B000663DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2C3FADF27BBE7B000663DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2C3FAE027BBE7B000663DA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F2C3FAE827BC839B00663DA0 /* PZToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZToast.h; sourceTree = "<group>"; };
-		F2C3FAE927BC839B00663DA0 /* PZToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZToast.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +101,77 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		F22A091727C3B70900A8F005 /* PZSearch */ = {
+			isa = PBXGroup;
+			children = (
+				F22A092E27C5064100A8F005 /* Category */,
+				F22A091A27C3B74300A8F005 /* Controller */,
+				F22A091927C3B73D00A8F005 /* View */,
+				F22A091827C3B72100A8F005 /* Model */,
+				F22A092427C3C08D00A8F005 /* PZSearchConst.h */,
+			);
+			path = PZSearch;
+			sourceTree = "<group>";
+		};
+		F22A091827C3B72100A8F005 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F22A091927C3B73D00A8F005 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F22A092827C5056B00A8F005 /* PZSearchNormalCell.h */,
+				F22A092927C5056B00A8F005 /* PZSearchNormalCell.m */,
+				F22A092F27C5079D00A8F005 /* PZSearchHeaderView.h */,
+				F22A093027C5079D00A8F005 /* PZSearchHeaderView.m */,
+				F22A093427C60EAD00A8F005 /* PZSearchFlowLayout.h */,
+				F22A093527C60EAD00A8F005 /* PZSearchFlowLayout.m */,
+				F22A093727C611E000A8F005 /* PZSearchSuggestBaseCell.h */,
+				F22A093827C611E000A8F005 /* PZSearchSuggestBaseCell.m */,
+				F22A093A27C613DE00A8F005 /* PZSearchSuggestFuzzyCell.h */,
+				F22A093B27C613DE00A8F005 /* PZSearchSuggestFuzzyCell.m */,
+				F22A093D27C6157C00A8F005 /* PZSearchSuggestConcreteCell.h */,
+				F22A093E27C6157C00A8F005 /* PZSearchSuggestConcreteCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F22A091A27C3B74300A8F005 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F22A091B27C3B83600A8F005 /* PZSearchViewController.h */,
+				F22A091C27C3B83600A8F005 /* PZSearchViewController.m */,
+				F22A091E27C3B86700A8F005 /* PZSearchSuggestionViewController.h */,
+				F22A091F27C3B86700A8F005 /* PZSearchSuggestionViewController.m */,
+				F22A092127C3BA3D00A8F005 /* PZSearchNormalViewController.h */,
+				F22A092227C3BA3D00A8F005 /* PZSearchNormalViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F22A092527C4845700A8F005 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2BDF94327C6357D0076FE4D /* ic_back@2x.png */,
+				F22A092627C4846700A8F005 /* ic_search@3x.png */,
+				F22A093227C508FB00A8F005 /* empty.png */,
+				F22A094327C62E9000A8F005 /* default@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F22A092E27C5064100A8F005 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F22A092B27C5063C00A8F005 /* UIColor+ZQSearch.h */,
+				F22A092C27C5063C00A8F005 /* UIColor+ZQSearch.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		F2C3FAC227BBE7AE00663DA0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,7 +193,8 @@
 		F2C3FACD27BBE7AE00663DA0 /* PZIndicatorHUD */ = {
 			isa = PBXGroup;
 			children = (
-				F2C3FAE727BC838B00663DA0 /* Toast */,
+				F22A092527C4845700A8F005 /* Resources */,
+				F22A091727C3B70900A8F005 /* PZSearch */,
 				F2C3FACE27BBE7AE00663DA0 /* AppDelegate.h */,
 				F2C3FACF27BBE7AE00663DA0 /* AppDelegate.m */,
 				F2C3FAD427BBE7AE00663DA0 /* ViewController.h */,
@@ -92,17 +203,10 @@
 				F2C3FADC27BBE7B000663DA0 /* LaunchScreen.storyboard */,
 				F2C3FADF27BBE7B000663DA0 /* Info.plist */,
 				F2C3FAE027BBE7B000663DA0 /* main.m */,
+				F22A094027C62E0500A8F005 /* PZSearchSuggestModel.h */,
+				F22A094127C62E0500A8F005 /* PZSearchSuggestModel.m */,
 			);
 			path = PZIndicatorHUD;
-			sourceTree = "<group>";
-		};
-		F2C3FAE727BC838B00663DA0 /* Toast */ = {
-			isa = PBXGroup;
-			children = (
-				F2C3FAE827BC839B00663DA0 /* PZToast.h */,
-				F2C3FAE927BC839B00663DA0 /* PZToast.m */,
-			);
-			path = Toast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +269,10 @@
 			files = (
 				F2C3FADE27BBE7B000663DA0 /* LaunchScreen.storyboard in Resources */,
 				F2C3FADB27BBE7B000663DA0 /* Assets.xcassets in Resources */,
+				F22A094427C62E9000A8F005 /* default@3x.png in Resources */,
+				F2BDF94427C6357D0076FE4D /* ic_back@2x.png in Resources */,
+				F22A092727C4846700A8F005 /* ic_search@3x.png in Resources */,
+				F22A093327C508FB00A8F005 /* empty.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,10 +308,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F22A092A27C5056B00A8F005 /* PZSearchNormalCell.m in Sources */,
+				F22A093927C611E100A8F005 /* PZSearchSuggestBaseCell.m in Sources */,
+				F22A094227C62E0500A8F005 /* PZSearchSuggestModel.m in Sources */,
+				F22A093127C5079D00A8F005 /* PZSearchHeaderView.m in Sources */,
 				F2C3FAD627BBE7AE00663DA0 /* ViewController.m in Sources */,
-				F2C3FAEA27BC839B00663DA0 /* PZToast.m in Sources */,
 				F2C3FAD027BBE7AE00663DA0 /* AppDelegate.m in Sources */,
+				F22A092027C3B86700A8F005 /* PZSearchSuggestionViewController.m in Sources */,
+				F22A091D27C3B83600A8F005 /* PZSearchViewController.m in Sources */,
+				F22A093C27C613DE00A8F005 /* PZSearchSuggestFuzzyCell.m in Sources */,
 				F2C3FAE127BBE7B000663DA0 /* main.m in Sources */,
+				F22A093627C60EAD00A8F005 /* PZSearchFlowLayout.m in Sources */,
+				F22A092D27C5063D00A8F005 /* UIColor+ZQSearch.m in Sources */,
+				F22A092327C3BA3D00A8F005 /* PZSearchNormalViewController.m in Sources */,
+				F22A093F27C6157C00A8F005 /* PZSearchSuggestConcreteCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +461,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PZIndicatorHUD/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PZDropDownMenu;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -352,7 +471,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lpz.www.PZIndicatorHUD;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lpz.www.PZDropDownMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -369,6 +488,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PZIndicatorHUD/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PZDropDownMenu;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -378,7 +498,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lpz.www.PZIndicatorHUD;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lpz.www.PZDropDownMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
